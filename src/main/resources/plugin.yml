@@ -1,0 +1,19 @@
+name: DimensionalUtil
+version: 0.1
+main: me.maartin0.dimensionalutil.Main
+api-version: 1.18
+load: STARTUP
+authors: [ maartin0 ]
+
+commands:
+  dimension:
+    usage: "Usage: /<command> [create|join|delete|copy] <name> <name2?>"
+    description: "Manage dimensions"
+    permission: dimensionalutil.manage
+    aliases:
+      - dim
+      - world
+permissions:
+  dimensionalutil.manage:
+    description: "Dimension management permission"
+    default: op
